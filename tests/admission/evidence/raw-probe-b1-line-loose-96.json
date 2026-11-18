@@ -1,0 +1,68 @@
+{
+  "case": "/workspace/tests/admission/cases/b1-line-loose-96.json",
+  "request_bytes": 11431,
+  "static": {
+    "flattened_segments": 241,
+    "contour_count": 1,
+    "samples_per_pixel": 4,
+    "static_product": 6663168,
+    "production_budget": 160000000,
+    "independent_static_reject": false
+  },
+  "production_compile_admit": true,
+  "force_segments_match_independent": true,
+  "raster_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 13,
+      "bytes": 869,
+      "sha256": "9edbe09b925e61792cd40ae4f8956134f80fd37d3d547a7d13bf08823d2b4394",
+      "cancel_observed_millis": 13
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 13,
+      "bytes": 869,
+      "sha256": "9edbe09b925e61792cd40ae4f8956134f80fd37d3d547a7d13bf08823d2b4394",
+      "cancel_observed_millis": 13
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 14,
+      "bytes": 869,
+      "sha256": "9edbe09b925e61792cd40ae4f8956134f80fd37d3d547a7d13bf08823d2b4394",
+      "cancel_observed_millis": 14
+    }
+  ],
+  "svg_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3124,
+      "sha256": "934f511f6baff111d9ee793f0d7ee939ef7325a083412be1ff821046a4c9b18c",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3124,
+      "sha256": "934f511f6baff111d9ee793f0d7ee939ef7325a083412be1ff821046a4c9b18c",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3124,
+      "sha256": "934f511f6baff111d9ee793f0d7ee939ef7325a083412be1ff821046a4c9b18c",
+      "cancel_observed_millis": 0
+    }
+  ],
+  "generated_at_utc": "2026-11-18T13:46:59.916126021Z",
+  "probe_timeout_millis": 20000
+}

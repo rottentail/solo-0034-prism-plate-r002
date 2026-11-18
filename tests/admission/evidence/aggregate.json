@@ -1,0 +1,253 @@
+{
+  "cases": [
+    {
+      "case": "a1-line-loose-192",
+      "family": "A-near-gate",
+      "note": "240 line edges, low expansion cost",
+      "request_bytes": 11421,
+      "flattened_segments": 241,
+      "static_product": 26652672,
+      "production_decision": "admit",
+      "http_status": 201,
+      "png_median_ms": 56,
+      "png_min_ms": 56,
+      "png_max_ms": 58,
+      "png_timeouts": 0,
+      "png_digest": "be54c56f00d6b38adb9d276299adee5a6627bffb2483427e40384741142cac3f",
+      "png_deterministic": true,
+      "svg_median_ms": 0,
+      "svg_digest": "ab67f25c948b9bd94bb36dca91cb8337c0dd7fe8d243f87f31541f9de3a54438",
+      "svg_deterministic": true,
+      "classification": "accepted"
+    },
+    {
+      "case": "a2-curve-dense-192",
+      "family": "A-near-gate",
+      "note": "120 cubic verbs (2880 flattened edges), similar body size, over budget",
+      "request_bytes": 11196,
+      "flattened_segments": 2882,
+      "static_product": 318726144,
+      "production_decision": "reject",
+      "http_status": 400,
+      "png_median_ms": 369,
+      "png_min_ms": 365,
+      "png_max_ms": 373,
+      "png_timeouts": 0,
+      "png_digest": "83cc5d4e1dee00b3474079bdacfb44ab21fea078cdb4089ee38bac7e4f6b99be",
+      "png_deterministic": true,
+      "svg_median_ms": 1,
+      "svg_digest": "37505cfdee0cf71f5d4fd6134386d14ab02b5751796d1e7410fb6c8b5d830a43",
+      "svg_deterministic": true,
+      "classification": "bounding-reject"
+    },
+    {
+      "case": "a3-curve-dense-occluded-192",
+      "family": "A-near-gate",
+      "note": "same dense contour fully culled by an off-canvas clip; static product identical",
+      "request_bytes": 11408,
+      "flattened_segments": 2886,
+      "static_product": 319168512,
+      "production_decision": "reject",
+      "http_status": 400,
+      "png_median_ms": 13,
+      "png_min_ms": 12,
+      "png_max_ms": 13,
+      "png_timeouts": 0,
+      "png_digest": "2d9ec65260fb88fd5b0d11afe348a6aaaf48ebaa2d91ffc7662d2da10d03cc0d",
+      "png_deterministic": true,
+      "svg_median_ms": 1,
+      "svg_digest": "4375537a8061571512a6887ff4b3913e8753a6c2f58443a0cdca829d84a8aebb",
+      "svg_deterministic": true,
+      "classification": "conservative-reject"
+    },
+    {
+      "case": "a4-curve-occluded-legal-192",
+      "family": "A-near-gate",
+      "note": "960 flattened edges with the same off-canvas clip; admitted control proving cull cheapness",
+      "request_bytes": 4276,
+      "flattened_segments": 966,
+      "static_product": 106831872,
+      "production_decision": "admit",
+      "http_status": 201,
+      "png_median_ms": 12,
+      "png_min_ms": 12,
+      "png_max_ms": 13,
+      "png_timeouts": 0,
+      "png_digest": "2d9ec65260fb88fd5b0d11afe348a6aaaf48ebaa2d91ffc7662d2da10d03cc0d",
+      "png_deterministic": true,
+      "svg_median_ms": 0,
+      "svg_digest": "a561f95cb2820bda83bee572994c49feacefe368e97b561bf2077c42d45fa239",
+      "svg_deterministic": true,
+      "classification": "accepted"
+    },
+    {
+      "case": "b1-line-loose-96",
+      "family": "B-admitted-pair",
+      "note": "admitted line ring, low complexity",
+      "request_bytes": 11431,
+      "flattened_segments": 241,
+      "static_product": 6663168,
+      "production_decision": "admit",
+      "http_status": 201,
+      "png_median_ms": 13,
+      "png_min_ms": 13,
+      "png_max_ms": 14,
+      "png_timeouts": 0,
+      "png_digest": "9edbe09b925e61792cd40ae4f8956134f80fd37d3d547a7d13bf08823d2b4394",
+      "png_deterministic": true,
+      "svg_median_ms": 0,
+      "svg_digest": "934f511f6baff111d9ee793f0d7ee939ef7325a083412be1ff821046a4c9b18c",
+      "svg_deterministic": true,
+      "classification": "accepted"
+    },
+    {
+      "case": "b2-curve-dense-96",
+      "family": "B-admitted-pair",
+      "note": "admitted cubic ring, ~12x flattened edges at similar body size",
+      "request_bytes": 11185,
+      "flattened_segments": 2882,
+      "static_product": 79681536,
+      "production_decision": "admit",
+      "http_status": 201,
+      "png_median_ms": 92,
+      "png_min_ms": 90,
+      "png_max_ms": 92,
+      "png_timeouts": 0,
+      "png_digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+      "png_deterministic": true,
+      "svg_median_ms": 1,
+      "svg_digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+      "svg_deterministic": true,
+      "classification": "accepted"
+    },
+    {
+      "case": "c1-curve-extreme-512",
+      "family": "C-extreme",
+      "note": "252 cubic verbs (6048 edges) on the largest canvas; far over budget",
+      "request_bytes": 23011,
+      "flattened_segments": 6050,
+      "static_product": 6343884800,
+      "production_decision": "reject",
+      "http_status": 400,
+      "png_median_ms": 8835,
+      "png_min_ms": 8823,
+      "png_max_ms": 8843,
+      "png_timeouts": 0,
+      "png_digest": "2e5786359abdd800485e7a24e235bd2cc9443708c72d5604f8d65704a4a132a7",
+      "png_deterministic": true,
+      "svg_median_ms": 2,
+      "svg_digest": "31f9fdc2ab928bcf101ad04563bcea69d3a60fb7fc55430fe428ab73d561bb5a",
+      "svg_deterministic": true,
+      "classification": "bounding-reject"
+    },
+    {
+      "case": "c2-curve-extreme-occluded-512",
+      "family": "C-extreme",
+      "note": "same extreme contour fully culled; force-compiled measurement proves cheap imaging",
+      "request_bytes": 23231,
+      "flattened_segments": 6054,
+      "static_product": 6348079104,
+      "production_decision": "reject",
+      "http_status": 400,
+      "png_median_ms": 120,
+      "png_min_ms": 118,
+      "png_max_ms": 120,
+      "png_timeouts": 0,
+      "png_digest": "8e9ffe8cb36f4b81c7ebae3aa8167ca0280faf7c65ad2af5a68e408efe793f34",
+      "png_deterministic": true,
+      "svg_median_ms": 2,
+      "svg_digest": "6cdca1dc77943d67d384b709f54363eb6eb4021e69593e5cf2cb7d94aeff18b7",
+      "svg_deterministic": true,
+      "classification": "conservative-reject"
+    },
+    {
+      "case": "c3-curve-max-admitted-512",
+      "family": "C-extreme",
+      "note": "144+ edges near the largest admitted static product on 512x512",
+      "request_bytes": 1028,
+      "flattened_segments": 146,
+      "static_product": 153092096,
+      "production_decision": "admit",
+      "http_status": 201,
+      "png_median_ms": 341,
+      "png_min_ms": 341,
+      "png_max_ms": 344,
+      "png_timeouts": 0,
+      "png_digest": "442bf72ba170875cff4aa071835d8fdc76ee2da5d1d2c4b1563e85da9e031a38",
+      "png_deterministic": true,
+      "svg_median_ms": 0,
+      "svg_digest": "8752c5c8c03df8047fa91b9304a94c9114aacf02b52bfd5439a51a9330363357",
+      "svg_deterministic": true,
+      "classification": "accepted"
+    }
+  ],
+  "classifications": {
+    "accepted": 5,
+    "bounding-reject": 2,
+    "conservative-reject": 2
+  },
+  "channels": {
+    "create": {
+      "total": 9,
+      "rejected": 4,
+      "all_no_partial_residue": true
+    },
+    "bundle_import": {
+      "total": 9,
+      "rejected": 4,
+      "all_no_partial_residue": true,
+      "duplicate_conflict_enforced": true,
+      "tamper_rejected": true
+    },
+    "body_guard": {
+      "padded_bytes": 8389633,
+      "http_status": 400,
+      "no_partial_residue": true
+    },
+    "revision_put": {
+      "over_budget_put_status": 400,
+      "error": "scene exceeds bounded rendering work",
+      "revision_count_unchanged": true,
+      "revision_digest_unchanged": true,
+      "no_artifact_growth": true
+    },
+    "cross_instance": {
+      "import_status": 201,
+      "rendered": {
+        "png": {
+          "status": 201,
+          "first_instance_digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+          "second_instance_digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+          "digest_equal_to_first_instance": true
+        },
+        "svg": {
+          "status": 201,
+          "first_instance_digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+          "second_instance_digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+          "digest_equal_to_first_instance": true
+        }
+      },
+      "all_digests_match": true
+    },
+    "cancellation": {
+      "submit_status": 202,
+      "cancel_status": 202,
+      "terminal_state": "cancelled",
+      "terminal_is_bounded": true
+    }
+  },
+  "bounded_deadline_evidence": {
+    "case": "c1-curve-extreme-512",
+    "probe_timeout_ms": 2000,
+    "raster": [
+      {
+        "ok": false,
+        "timed_out": true,
+        "error": "context deadline exceeded",
+        "elapsed_millis": 2005,
+        "cancel_observed_millis": 2005
+      }
+    ],
+    "svg_still_succeeds": true
+  }
+}

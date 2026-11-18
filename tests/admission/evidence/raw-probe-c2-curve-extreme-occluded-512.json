@@ -1,0 +1,69 @@
+{
+  "case": "/workspace/tests/admission/cases/c2-curve-extreme-occluded-512.json",
+  "request_bytes": 23231,
+  "static": {
+    "flattened_segments": 6054,
+    "contour_count": 2,
+    "samples_per_pixel": 4,
+    "static_product": 6348079104,
+    "production_budget": 160000000,
+    "independent_static_reject": true
+  },
+  "production_compile_admit": false,
+  "production_compile_error": "scene exceeds bounded rendering work",
+  "force_segments_match_independent": true,
+  "raster_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 118,
+      "bytes": 1887,
+      "sha256": "8e9ffe8cb36f4b81c7ebae3aa8167ca0280faf7c65ad2af5a68e408efe793f34",
+      "cancel_observed_millis": 118
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 120,
+      "bytes": 1887,
+      "sha256": "8e9ffe8cb36f4b81c7ebae3aa8167ca0280faf7c65ad2af5a68e408efe793f34",
+      "cancel_observed_millis": 120
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 120,
+      "bytes": 1887,
+      "sha256": "8e9ffe8cb36f4b81c7ebae3aa8167ca0280faf7c65ad2af5a68e408efe793f34",
+      "cancel_observed_millis": 120
+    }
+  ],
+  "svg_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 2,
+      "bytes": 122707,
+      "sha256": "6cdca1dc77943d67d384b709f54363eb6eb4021e69593e5cf2cb7d94aeff18b7",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 2,
+      "bytes": 122707,
+      "sha256": "6cdca1dc77943d67d384b709f54363eb6eb4021e69593e5cf2cb7d94aeff18b7",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 2,
+      "bytes": 122707,
+      "sha256": "6cdca1dc77943d67d384b709f54363eb6eb4021e69593e5cf2cb7d94aeff18b7",
+      "cancel_observed_millis": 0
+    }
+  ],
+  "generated_at_utc": "2026-11-18T13:47:26.75730591Z",
+  "probe_timeout_millis": 20000
+}

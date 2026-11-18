@@ -1,0 +1,68 @@
+{
+  "case": "/workspace/tests/admission/cases/b2-curve-dense-96.json",
+  "request_bytes": 11185,
+  "static": {
+    "flattened_segments": 2882,
+    "contour_count": 1,
+    "samples_per_pixel": 4,
+    "static_product": 79681536,
+    "production_budget": 160000000,
+    "independent_static_reject": false
+  },
+  "production_compile_admit": true,
+  "force_segments_match_independent": true,
+  "raster_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 92,
+      "bytes": 731,
+      "sha256": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+      "cancel_observed_millis": 92
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 92,
+      "bytes": 731,
+      "sha256": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+      "cancel_observed_millis": 92
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 90,
+      "bytes": 731,
+      "sha256": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+      "cancel_observed_millis": 90
+    }
+  ],
+  "svg_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 1,
+      "bytes": 58940,
+      "sha256": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 1,
+      "bytes": 58940,
+      "sha256": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 1,
+      "bytes": 58940,
+      "sha256": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+      "cancel_observed_millis": 0
+    }
+  ],
+  "generated_at_utc": "2026-11-18T13:46:59.961311116Z",
+  "probe_timeout_millis": 20000
+}

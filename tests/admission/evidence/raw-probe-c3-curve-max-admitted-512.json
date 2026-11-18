@@ -1,0 +1,68 @@
+{
+  "case": "/workspace/tests/admission/cases/c3-curve-max-admitted-512.json",
+  "request_bytes": 1028,
+  "static": {
+    "flattened_segments": 146,
+    "contour_count": 1,
+    "samples_per_pixel": 4,
+    "static_product": 153092096,
+    "production_budget": 160000000,
+    "independent_static_reject": false
+  },
+  "production_compile_admit": true,
+  "force_segments_match_independent": true,
+  "raster_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 341,
+      "bytes": 3768,
+      "sha256": "442bf72ba170875cff4aa071835d8fdc76ee2da5d1d2c4b1563e85da9e031a38",
+      "cancel_observed_millis": 341
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 344,
+      "bytes": 3768,
+      "sha256": "442bf72ba170875cff4aa071835d8fdc76ee2da5d1d2c4b1563e85da9e031a38",
+      "cancel_observed_millis": 344
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 341,
+      "bytes": 3768,
+      "sha256": "442bf72ba170875cff4aa071835d8fdc76ee2da5d1d2c4b1563e85da9e031a38",
+      "cancel_observed_millis": 341
+    }
+  ],
+  "svg_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3324,
+      "sha256": "8752c5c8c03df8047fa91b9304a94c9114aacf02b52bfd5439a51a9330363357",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3324,
+      "sha256": "8752c5c8c03df8047fa91b9304a94c9114aacf02b52bfd5439a51a9330363357",
+      "cancel_observed_millis": 0
+    },
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 0,
+      "bytes": 3324,
+      "sha256": "8752c5c8c03df8047fa91b9304a94c9114aacf02b52bfd5439a51a9330363357",
+      "cancel_observed_millis": 0
+    }
+  ],
+  "generated_at_utc": "2026-11-18T13:47:27.12722637Z",
+  "probe_timeout_millis": 20000
+}

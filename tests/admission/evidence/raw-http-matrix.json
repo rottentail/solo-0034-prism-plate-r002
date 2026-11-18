@@ -1,0 +1,636 @@
+{
+  "generated_at_utc": "2026-11-18T13:47:32Z",
+  "budget_observed": 160000000,
+  "body_limit_observed": 8388608,
+  "http_create_rows": [
+    {
+      "case": "a1-line-loose-192",
+      "request_bytes": 11421,
+      "static": {
+        "segments": 241,
+        "contours": 0,
+        "static_product": 26652672,
+        "independent_reject": false
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 201,
+        "elapsed_ms": 21,
+        "error": null
+      },
+      "state_before": {
+        "present": false
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 0,
+        "proof_count": 0,
+        "snapshot_bytes": 11580
+      },
+      "revision_digest": "6139fbf1901cc752b90fe2840a737915038cfc59c7434f823f82ed64e3ecc491",
+      "rendered": {
+        "png": {
+          "http_status": 201,
+          "elapsed_ms": 68,
+          "artifact_status": 200,
+          "digest": "be54c56f00d6b38adb9d276299adee5a6627bffb2483427e40384741142cac3f",
+          "digest_match": true,
+          "content_type": "image/png",
+          "bytes": 3949,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        },
+        "svg": {
+          "http_status": 201,
+          "elapsed_ms": 9,
+          "artifact_status": 200,
+          "digest": "ab67f25c948b9bd94bb36dca91cb8337c0dd7fe8d243f87f31541f9de3a54438",
+          "digest_match": true,
+          "content_type": "image/svg+xml",
+          "bytes": 3112,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        }
+      },
+      "decision_consistent": true
+    },
+    {
+      "case": "a2-curve-dense-192",
+      "request_bytes": 11196,
+      "static": {
+        "segments": 2882,
+        "contours": 0,
+        "static_product": 318726144,
+        "independent_reject": true
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 400,
+        "elapsed_ms": 1,
+        "error": "scene exceeds bounded rendering work"
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 21769
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 21769
+      },
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "a3-curve-dense-occluded-192",
+      "request_bytes": 11408,
+      "static": {
+        "segments": 2886,
+        "contours": 0,
+        "static_product": 319168512,
+        "independent_reject": true
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 400,
+        "elapsed_ms": 0,
+        "error": "scene exceeds bounded rendering work"
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 21769
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 21769
+      },
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "a4-curve-occluded-legal-192",
+      "request_bytes": 4276,
+      "static": {
+        "segments": 966,
+        "contours": 0,
+        "static_product": 106831872,
+        "independent_reject": false
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 201,
+        "elapsed_ms": 12,
+        "error": null
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 21769
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal"
+        ],
+        "artifact_count": 2,
+        "proof_count": 0,
+        "snapshot_bytes": 26189
+      },
+      "revision_digest": "8761b093c10eb38578240d3e944af9c9f2f0452760d1e67de2a78256b6368938",
+      "rendered": {
+        "png": {
+          "http_status": 201,
+          "elapsed_ms": 24,
+          "artifact_status": 200,
+          "digest": "2d9ec65260fb88fd5b0d11afe348a6aaaf48ebaa2d91ffc7662d2da10d03cc0d",
+          "digest_match": true,
+          "content_type": "image/png",
+          "bytes": 439,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        },
+        "svg": {
+          "http_status": 201,
+          "elapsed_ms": 8,
+          "artifact_status": 200,
+          "digest": "a561f95cb2820bda83bee572994c49feacefe368e97b561bf2077c42d45fa239",
+          "digest_match": true,
+          "content_type": "image/svg+xml",
+          "bytes": 20109,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        }
+      },
+      "decision_consistent": true
+    },
+    {
+      "case": "b1-line-loose-96",
+      "request_bytes": 11431,
+      "static": {
+        "segments": 241,
+        "contours": 0,
+        "static_product": 6663168,
+        "independent_reject": false
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 201,
+        "elapsed_ms": 6,
+        "error": null
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal"
+        ],
+        "artifact_count": 4,
+        "proof_count": 0,
+        "snapshot_bytes": 54371
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96"
+        ],
+        "artifact_count": 4,
+        "proof_count": 0,
+        "snapshot_bytes": 65897
+      },
+      "revision_digest": "b8c2ded97923a576dcb8f97e70ed20e2e7d92d35b5ccac7b3faa50b5db8b924e",
+      "rendered": {
+        "png": {
+          "http_status": 201,
+          "elapsed_ms": 20,
+          "artifact_status": 200,
+          "digest": "9edbe09b925e61792cd40ae4f8956134f80fd37d3d547a7d13bf08823d2b4394",
+          "digest_match": true,
+          "content_type": "image/png",
+          "bytes": 869,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        },
+        "svg": {
+          "http_status": 201,
+          "elapsed_ms": 7,
+          "artifact_status": 200,
+          "digest": "934f511f6baff111d9ee793f0d7ee939ef7325a083412be1ff821046a4c9b18c",
+          "digest_match": true,
+          "content_type": "image/svg+xml",
+          "bytes": 3124,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        }
+      },
+      "decision_consistent": true
+    },
+    {
+      "case": "b2-curve-dense-96",
+      "request_bytes": 11185,
+      "static": {
+        "segments": 2882,
+        "contours": 0,
+        "static_product": 79681536,
+        "independent_reject": false
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 201,
+        "elapsed_ms": 7,
+        "error": null
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96"
+        ],
+        "artifact_count": 6,
+        "proof_count": 0,
+        "snapshot_bytes": 71993
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 6,
+        "proof_count": 0,
+        "snapshot_bytes": 83242
+      },
+      "revision_digest": "fde7b059f86dcd4a8468da3d33bbb1cbac7f179a354ef981892319e28abcde97",
+      "rendered": {
+        "png": {
+          "http_status": 201,
+          "elapsed_ms": 147,
+          "artifact_status": 200,
+          "digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+          "digest_match": true,
+          "content_type": "image/png",
+          "bytes": 731,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        },
+        "svg": {
+          "http_status": 201,
+          "elapsed_ms": 11,
+          "artifact_status": 200,
+          "digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+          "digest_match": true,
+          "content_type": "image/svg+xml",
+          "bytes": 58940,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        }
+      },
+      "decision_consistent": true
+    },
+    {
+      "case": "c1-curve-extreme-512",
+      "request_bytes": 23011,
+      "static": {
+        "segments": 6050,
+        "contours": 0,
+        "static_product": 6343884800,
+        "independent_reject": true
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 400,
+        "elapsed_ms": 4,
+        "error": "scene exceeds bounded rendering work"
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 163576
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 163576
+      },
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "c2-curve-extreme-occluded-512",
+      "request_bytes": 23231,
+      "static": {
+        "segments": 6054,
+        "contours": 0,
+        "static_product": 6348079104,
+        "independent_reject": true
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 400,
+        "elapsed_ms": 1,
+        "error": "scene exceeds bounded rendering work"
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 163576
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 163576
+      },
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "c3-curve-max-admitted-512",
+      "request_bytes": 1028,
+      "static": {
+        "segments": 146,
+        "contours": 0,
+        "static_product": 153092096,
+        "independent_reject": false
+      },
+      "channel": "http-create",
+      "create": {
+        "http_status": 201,
+        "elapsed_ms": 13,
+        "error": null
+      },
+      "state_before": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 163576
+      },
+      "state_after": {
+        "present": true,
+        "plates": [
+          "a1-line-loose-192",
+          "a4-curve-occluded-legal",
+          "b1-line-loose-96",
+          "b2-curve-dense-96",
+          "c3-curve-max-admitted"
+        ],
+        "artifact_count": 8,
+        "proof_count": 0,
+        "snapshot_bytes": 164812
+      },
+      "revision_digest": "cde7eced9d197d60dc44816e073d614509346606ec6fba47239d6260cea3edfb",
+      "rendered": {
+        "png": {
+          "http_status": 201,
+          "elapsed_ms": 359,
+          "artifact_status": 200,
+          "digest": "442bf72ba170875cff4aa071835d8fdc76ee2da5d1d2c4b1563e85da9e031a38",
+          "digest_match": true,
+          "content_type": "image/png",
+          "bytes": 3768,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        },
+        "svg": {
+          "http_status": 201,
+          "elapsed_ms": 12,
+          "artifact_status": 200,
+          "digest": "8752c5c8c03df8047fa91b9304a94c9114aacf02b52bfd5439a51a9330363357",
+          "digest_match": true,
+          "content_type": "image/svg+xml",
+          "bytes": 3324,
+          "format_check": null,
+          "rerender_status": 201,
+          "deterministic_id": true
+        }
+      },
+      "decision_consistent": true
+    }
+  ],
+  "bundle_import_rows": [
+    {
+      "case": "a1-line-loose-192",
+      "bundle_bytes": 11617,
+      "http_status": 201,
+      "elapsed_ms": 7,
+      "error": null,
+      "no_partial_residue": true,
+      "decision_consistent": true,
+      "duplicate_status": 409,
+      "duplicate_no_overwrite": true,
+      "tampered_status": 400
+    },
+    {
+      "case": "a2-curve-dense-192",
+      "bundle_bytes": 11386,
+      "http_status": 400,
+      "elapsed_ms": 1,
+      "error": "scene exceeds bounded rendering work",
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "a3-curve-dense-occluded-192",
+      "bundle_bytes": 11582,
+      "http_status": 400,
+      "elapsed_ms": 1,
+      "error": "scene exceeds bounded rendering work",
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "a4-curve-occluded-legal-192",
+      "bundle_bytes": 4516,
+      "http_status": 201,
+      "elapsed_ms": 10,
+      "error": null,
+      "no_partial_residue": true,
+      "decision_consistent": true,
+      "duplicate_status": 409,
+      "duplicate_no_overwrite": true,
+      "tampered_status": 400
+    },
+    {
+      "case": "b1-line-loose-96",
+      "bundle_bytes": 11629,
+      "http_status": 201,
+      "elapsed_ms": 9,
+      "error": null,
+      "no_partial_residue": true,
+      "decision_consistent": true,
+      "duplicate_status": 409,
+      "duplicate_no_overwrite": true,
+      "tampered_status": 400
+    },
+    {
+      "case": "b2-curve-dense-96",
+      "bundle_bytes": 11350,
+      "http_status": 201,
+      "elapsed_ms": 8,
+      "error": null,
+      "no_partial_residue": true,
+      "decision_consistent": true,
+      "duplicate_status": 409,
+      "duplicate_no_overwrite": true,
+      "tampered_status": 400
+    },
+    {
+      "case": "c1-curve-extreme-512",
+      "bundle_bytes": 22994,
+      "http_status": 400,
+      "elapsed_ms": 1,
+      "error": "scene exceeds bounded rendering work",
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "c2-curve-extreme-occluded-512",
+      "bundle_bytes": 23199,
+      "http_status": 400,
+      "elapsed_ms": 1,
+      "error": "scene exceeds bounded rendering work",
+      "no_partial_residue": true,
+      "decision_consistent": true
+    },
+    {
+      "case": "c3-curve-max-admitted-512",
+      "bundle_bytes": 1334,
+      "http_status": 201,
+      "elapsed_ms": 11,
+      "error": null,
+      "no_partial_residue": true,
+      "decision_consistent": true,
+      "duplicate_status": 409,
+      "duplicate_no_overwrite": true,
+      "tampered_status": 400
+    }
+  ],
+  "body_guard": {
+    "padded_bytes": 8389633,
+    "http_status": 400,
+    "no_partial_residue": true
+  },
+  "revision_rejection": {
+    "over_budget_put_status": 400,
+    "error": "scene exceeds bounded rendering work",
+    "revision_count_unchanged": true,
+    "revision_digest_unchanged": true,
+    "no_artifact_growth": true
+  },
+  "cross_instance": {
+    "import_status": 201,
+    "rendered": {
+      "png": {
+        "status": 201,
+        "first_instance_digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+        "second_instance_digest": "88a28e38094d01b76d942cecb7dc0e61c38d125a9b8cd1d62fc30a83dd513b2f",
+        "digest_equal_to_first_instance": true
+      },
+      "svg": {
+        "status": 201,
+        "first_instance_digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+        "second_instance_digest": "bd849b7dc3baa487bb5efa4fa680104d6812c115bd1d377bf0a7bd3699c33cc1",
+        "digest_equal_to_first_instance": true
+      }
+    },
+    "all_digests_match": true
+  },
+  "cancellation": {
+    "submit_status": 202,
+    "cancel_status": 202,
+    "terminal_state": "cancelled",
+    "terminal_is_bounded": true
+  },
+  "final_state_summary": {
+    "plates": [
+      "a1-line-loose-192",
+      "a4-curve-occluded-legal",
+      "b1-line-loose-96",
+      "b2-curve-dense-96",
+      "c3-curve-max-admitted",
+      "imp-a1-line-loose-192",
+      "imp-a4-curve-occluded-legal",
+      "imp-b1-line-loose-96",
+      "imp-b2-curve-dense-96",
+      "imp-c3-curve-max-admitted"
+    ],
+    "artifact_count": 10,
+    "proof_count": 0
+  },
+  "service_log_tail": [
+    "2026/11/18 13:47:30 prism-plate ready at 127.0.0.1:41591"
+  ]
+}

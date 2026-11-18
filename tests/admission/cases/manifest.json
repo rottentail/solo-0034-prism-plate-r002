@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "case": "a1-line-loose-192",
+      "file": "a1-line-loose-192.json",
+      "bytes": 11421,
+      "family": "A-near-gate",
+      "note": "240 line edges, low expansion cost"
+    },
+    {
+      "case": "a2-curve-dense-192",
+      "file": "a2-curve-dense-192.json",
+      "bytes": 11196,
+      "family": "A-near-gate",
+      "note": "120 cubic verbs (2880 flattened edges), similar body size, over budget"
+    },
+    {
+      "case": "a3-curve-dense-occluded-192",
+      "file": "a3-curve-dense-occluded-192.json",
+      "bytes": 11408,
+      "family": "A-near-gate",
+      "note": "same dense contour fully culled by an off-canvas clip; static product identical"
+    },
+    {
+      "case": "a4-curve-occluded-legal-192",
+      "file": "a4-curve-occluded-legal-192.json",
+      "bytes": 4276,
+      "family": "A-near-gate",
+      "note": "960 flattened edges with the same off-canvas clip; admitted control proving cull cheapness"
+    },
+    {
+      "case": "b1-line-loose-96",
+      "file": "b1-line-loose-96.json",
+      "bytes": 11431,
+      "family": "B-admitted-pair",
+      "note": "admitted line ring, low complexity"
+    },
+    {
+      "case": "b2-curve-dense-96",
+      "file": "b2-curve-dense-96.json",
+      "bytes": 11185,
+      "family": "B-admitted-pair",
+      "note": "admitted cubic ring, ~12x flattened edges at similar body size"
+    },
+    {
+      "case": "c1-curve-extreme-512",
+      "file": "c1-curve-extreme-512.json",
+      "bytes": 23011,
+      "family": "C-extreme",
+      "note": "252 cubic verbs (6048 edges) on the largest canvas; far over budget"
+    },
+    {
+      "case": "c2-curve-extreme-occluded-512",
+      "file": "c2-curve-extreme-occluded-512.json",
+      "bytes": 23231,
+      "family": "C-extreme",
+      "note": "same extreme contour fully culled; force-compiled measurement proves cheap imaging"
+    },
+    {
+      "case": "c3-curve-max-admitted-512",
+      "file": "c3-curve-max-admitted-512.json",
+      "bytes": 1028,
+      "family": "C-extreme",
+      "note": "144+ edges near the largest admitted static product on 512x512"
+    }
+  ]
+}

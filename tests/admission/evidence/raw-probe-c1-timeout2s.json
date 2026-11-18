@@ -1,0 +1,36 @@
+{
+  "case": "/workspace/tests/admission/cases/c1-curve-extreme-512.json",
+  "request_bytes": 23011,
+  "static": {
+    "flattened_segments": 6050,
+    "contour_count": 1,
+    "samples_per_pixel": 4,
+    "static_product": 6343884800,
+    "production_budget": 160000000,
+    "independent_static_reject": true
+  },
+  "production_compile_admit": false,
+  "production_compile_error": "scene exceeds bounded rendering work",
+  "force_segments_match_independent": true,
+  "raster_runs": [
+    {
+      "ok": false,
+      "timed_out": true,
+      "error": "context deadline exceeded",
+      "elapsed_millis": 2005,
+      "cancel_observed_millis": 2005
+    }
+  ],
+  "svg_runs": [
+    {
+      "ok": true,
+      "timed_out": false,
+      "elapsed_millis": 2,
+      "bytes": 122577,
+      "sha256": "31f9fdc2ab928bcf101ad04563bcea69d3a60fb7fc55430fe428ab73d561bb5a",
+      "cancel_observed_millis": 0
+    }
+  ],
+  "generated_at_utc": "2026-11-18T13:47:28.157239416Z",
+  "probe_timeout_millis": 2000
+}
